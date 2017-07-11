@@ -11,6 +11,8 @@ public class Employee {
 	@GeneratedValue
 	private int id;
 	private String name;
+	public Employee() {
+	}
 	@Override
 	public String toString() {
 		return "Employee [id=" + id + ", name=" + name + "]";
